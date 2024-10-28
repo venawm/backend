@@ -8,6 +8,10 @@
     "build": "tsc",
     "start": "node dist/src/app.js"
   },
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
     "axios": "^1.6.7",
