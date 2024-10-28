@@ -1,12 +1,12 @@
 {
   "name": "rest-api-clean-architecture-boilerplate",
   "version": "1.0.0",
-  "main": "dist/app.js",
+  "main": "dist/src/app.js",
   "author": "Loki Chaulagain (webX)",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/src/app.js"
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
